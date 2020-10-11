@@ -3,8 +3,23 @@ package com.example.test1;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+import android.view.View;
+import android.widget.Button;
+import android.widget.CheckBox;
+import android.widget.EditText;
+import android.widget.RadioButton;
+import android.widget.RadioGroup;
+import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
+    //private static final String TAG = "MainActivity.class";
+    TextView tv_password;
+    EditText et_password;
+    Button btn_forget;
+    CheckBox ck_remember;
+    RadioGroup rg_login;
+
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -16,7 +31,8 @@ public class MainActivity extends AppCompatActivity {
         et_password = findViewById(R.id.et_password);
         btn_forget = findViewById(R.id.btn_forget);
         ck_remember = findViewById(R.id.ck_remember);
-        rg_login = findViewById(R.id.rg_login);
+        rg_login = findViewById(R.id.radio_group);
+
         //单选按钮组绑定监听器
         rg_login.setOnCheckedChangeListener(new RadioGroup.OnCheckedChangeListener() {
             @Override
