@@ -13,6 +13,8 @@
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/app" />
             <option value="$PROJECT_DIR$/exam2" />
+            <option value="$PROJECT_DIR$/exam3" />
+            <option value="$PROJECT_DIR$/exam4" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />
