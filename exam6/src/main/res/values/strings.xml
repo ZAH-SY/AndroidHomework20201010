@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">exam6</string>
+    <string name="male">男性</string>
+    <string name="female">女性</string>
+    <string name="tv_sex">你是一位%s</string>
+    <string name="tv_height">你的身高是%d厘米</string>
+    <string name="tv_weight">你的标准体重是%.1f公斤</string>
+</resources>

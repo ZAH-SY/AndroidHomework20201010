@@ -1,3 +1,6 @@
+include ':exam7'
+include ':exam6'
+include ':exam5'
 include ':exam4'
 include ':exam3'
 include ':exam2'
